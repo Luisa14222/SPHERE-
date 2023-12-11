@@ -395,9 +395,21 @@
     
     }
     
+    /**************************************************************CARROUSEL***************************************************************************/
     
-    
-    
+  
+  #carouselExampleSlidesOnly{
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left: 27%;
+    top: 15px;
+}
+
+.d-block{
+    border-radius: 15px;
+}
     
     
     

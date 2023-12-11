@@ -169,18 +169,33 @@ public function consultar($sql){
                 <!-----------------------------------------------HEADER FINAL---------------------------------------->
 
             </header>
+            
+            <section>
+                <!--Sección del video-->
+                <div class="video-sphere navbar navbar-expand-md" id="video-sp">
+                   <video width="100%" autoplay loop muted  src="../IMAGENES/Copia de VIDEO SPHERE.mp4" preload autobuffer></video>
+                </div>
+                </section>
 
-     
-             
+                    <!--Carrousel-->
 
-
-
-
-
-
-
-
-      
+            <section>
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                             <div class="carousel-item active">
+                                   <img src="../IMAGENES/servicios1.svg" class="d-block w-100" alt="...">
+                                         </div>
+                                            <div class="carousel-item">
+                                    <img src="../IMAGENES/servicios2.svg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                         <img src="../IMAGENES/servicios3.svg" class="d-block w-100" alt="...">
+                                </div>
+    
+                        </div>
+                    </div>
+             </section>
+    
         <script src="SPHERE.js" type="text/javascript"></script>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
