@@ -70,6 +70,10 @@ public function consultar($sql){
         <!--Font Awesome-->
         <script src="https://kit.fontawesome.com/3dc9e2bbef.js" crossorigin="anonymous"></script>
         <!--Fuentes de Google-->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Open+Sans:wght@300&family=Roboto+Condensed:wght@100&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
@@ -89,7 +93,7 @@ public function consultar($sql){
                             <div class="navbar-nav d-flex justify-content-center align-items-center">
                                 <!--Logo  SPHERE--> 
                                     <div class=" navbar-nav d-flex justify-content-center align-items-center">
-                                        <img class="sphere" src="imagenes/Sphere nuevo.png" alt="">
+                                        <img class="sphere" src="../imagenes/Sphere nuevo.png" alt="">
                                     </div>  
                                     <div class="contenedor-logo-mas-letra container">                        
                                          <button data-text="Awesome" class="button" >
@@ -101,7 +105,7 @@ public function consultar($sql){
                             <ul class="navbar-nav d-flex justify-content-center align-items-center">
                                <!--Imagen Dirección de la empresa-->
                                <li class="nav-item">
-                                    <img src="imagenes/direccion.png" width="25px" alt="">
+                                    <img src="../imagenes/direccion.png" width="40px" alt="">
                                </li>
                                <!--Texto Dirección de la empresa-->
                                <li class="nav-item">
@@ -111,7 +115,7 @@ public function consultar($sql){
                                 </li>
                                 <!--Imagen Teléfono de la empresa-->
                                 <li class="nav-item">
-                                    <img src="imagenes/telefono.png" width="25px" alt="">
+                                    <img src="../imagenes/telefono.png" width="40px" alt="">
                                 </li>
                                 <!--Texto Teléfono de la empresa-->
                                 <li class="nav-item">
@@ -119,7 +123,7 @@ public function consultar($sql){
                                 </li>
                                 <!--Accesar a usuario-->
                                 <li class="nav-item">
-                                    <img src="imagenes/usuario.png" width="25px" alt="">
+                                    <img src="../imagenes/usuario.png" width="40px" alt="">
                                 </li>
                                 <!--Texto accesar a usuario-->
                                 <li class="nav-item">
@@ -170,32 +174,40 @@ public function consultar($sql){
 
             </header>
             
+
+     
+             
+
             <section>
                 <!--Sección del video-->
                 <div class="video-sphere navbar navbar-expand-md" id="video-sp">
                    <video width="100%" autoplay loop muted  src="../IMAGENES/Copia de VIDEO SPHERE.mp4" preload autobuffer></video>
                 </div>
-                </section>
+            </section>
 
-                    <!--Carrousel-->
+    <!--Carrousel-->
 
-            <section>
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                             <div class="carousel-item active">
-                                   <img src="../IMAGENES/servicios1.svg" class="d-block w-100" alt="...">
-                                         </div>
-                                            <div class="carousel-item">
-                                    <img src="../IMAGENES/servicios2.svg" class="d-block w-100" alt="...">
-                                            </div>
-                                            <div class="carousel-item">
-                                         <img src="../IMAGENES/servicios3.svg" class="d-block w-100" alt="...">
-                                </div>
+<section>
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../IMAGENES/servicios1.svg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../IMAGENES/servicios2.svg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../IMAGENES/servicios3.svg" class="d-block w-100" alt="...">
+    </div>
     
-                        </div>
-                    </div>
-             </section>
-    
+  </div>
+</div>
+</section>
+
+
+
+
+      
         <script src="SPHERE.js" type="text/javascript"></script>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
