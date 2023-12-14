@@ -105,7 +105,7 @@ public function consultar($sql){
                             <ul class="navbar-nav d-flex justify-content-center align-items-center">
                                <!--Imagen Dirección de la empresa-->
                                <li class="nav-item">
-                                    <img src="../imagenes/direccion.png" width="40px" alt="">
+                                    <img  src="../imagenes/direccion.png" width="40px" alt="">
                                </li>
                                <!--Texto Dirección de la empresa-->
                                <li class="nav-item">
@@ -186,24 +186,247 @@ public function consultar($sql){
             </section>
 
     <!--Carrousel-->
-
-<section>
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../IMAGENES/servicios1.svg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="../IMAGENES/servicios2.svg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="../IMAGENES/servicios3.svg" class="d-block w-100" alt="...">
-    </div>
-    
+    <section class="contenedor-carrousel container d-flex">
+<div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img id="img"  src="../IMAGENES/servicios2.svg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img id="img"  src="../IMAGENES/servicios1.svg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img id="img" src="../IMAGENES/servicios3.svg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 </section>
 
+
+<!--Servicios-->
+<section class="service-section">
+
+<div class="container">
+    <div class="row">
+
+        <div class="header-section">
+
+            <h2 class="title">Servicios <span>SPHERE</span> </h2>
+        </div>
+        <p class="description">
+        Acceso a módulos:
+        </p>
+
+    </div>
+
+        <div class="row">
+            <div class="service-column">
+                <div class="single-service">
+                    <div class="content">
+                        <span class="icon">
+                        <i class="fa-solid fa-user"></i>
+                        </span>
+                        <h3 class="main-title">EMPLEADOS</h3>
+                            <p class="description">
+                            En esta sección el empleado podrá accesar a su usuario laboral, donde podrá visualizar su kardex, historial,
+                            desempeño, evaluaciones entre otras cosas.
+
+                            </p>
+                            <button type="button" class="btn-blue btn btn-primary">Accesar</button>
+
+                    </div>
+                    <span class="circle-before"></span>
+
+                </div>
+
+            </div>
+            <div class="service-column">
+                <div class="single-service">
+                    <div class="content">
+                        <span class="icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <h3 class="main-title">RECLUTAMIENTO</h3>
+                            <p class="description">
+                            En esta sección el empleado podrá accesar a su usuario laboral, donde podrá visualizar su kardex, historial,
+                            desempeño, evaluaciones entre otras cosas.
+                             
+                            </p>
+                            <button type="button" class="btn-red btn btn-danger">Accesar</button>
+
+                    </div>
+                    <span class="circle-before"></span>
+
+                </div>
+
+            </div>
+            <div class="service-column">
+                <div class="single-service">
+                    <div class="content">
+                        <span class="icon">
+                        <i class="fa-solid fa-dumbbell"></i>
+                        </span>
+                        <h3 class="main-title">CAPACITACIÓN</h3>
+                            <p class="description">
+                            En esta sección el empleado podrá accesar a su usuario laboral, donde podrá visualizar su kardex, historial,
+                            desempeño, evaluaciones entre otras cosas.
+                            </p>
+                            <button type="button" class="btn-purple btn btn-danger">Accesar</button>
+
+                    </div>
+                    <span class="circle-before"></span>
+
+                </div>
+
+            </div>
+            <div class="service-column">
+                <div class="single-service">
+                    <div class="content">
+                        <span class="icon">
+                        <i class="fa-solid fa-star"></i>
+                        </span>
+                        <h3 class="main-title">DESEMPEÑO</h3>
+                            <p class="description">
+                            En esta sección el empleado podrá accesar a su usuario laboral, donde podrá visualizar su kardex, historial,
+                            desempeño, evaluaciones entre otras cosas.
+                            </p>
+                            <button type="button" class="btn-blue btn btn-primary">Accesar</button>
+
+                    </div>
+                    <span class="circle-before"></span>
+
+                </div>
+
+            </div>
+            <div class="service-column">
+                <div class="single-service">
+                    <div class="content">
+                        <span class="icon">
+                        <i class="fa-solid fa-gift"></i>
+                        </span>
+                        <h3 class="main-title">COMPENSACIONES</h3>
+                            <p class="description">
+                            En esta sección el empleado podrá accesar a su usuario laboral, donde podrá visualizar su kardex, historial,
+                            desempeño, evaluaciones entre otras cosas.
+                            </p>
+                            <button type="button" class="btn-red btn btn-danger">Accesar</button>
+
+                    </div>
+                    <span class="circle-before"></span>
+
+                </div>
+
+            </div>
+            <div class="service-column">
+                <div class="single-service">
+                    <div class="content">
+                        <span class="icon">
+                        <i class="fa-solid fa-brain"></i>
+                        </span>
+                        <h3 class="main-title">NOM035</h3>
+                            <p class="description">
+                            En esta sección el empleado podrá accesar a su usuario laboral, donde podrá visualizar su kardex, historial,
+                            desempeño, evaluaciones entre otras cosas.
+                            </p>
+                            <button type="button" class="btn-purple btn btn-danger">Accesar</button>
+
+                    </div>
+                    <span class="circle-before"></span>
+
+                </div>
+
+            </div>
+
+            <div class="service-column">
+                <div class="single-service">
+                    <div class="content">
+                        <span class="icon">
+                        <i class="fa-solid fa-gavel"></i>
+                        </span>
+                        <h3 class="main-title">LEGAL</h3>
+                            <p class="description">
+                            En esta sección el empleado podrá accesar a su usuario laboral, donde podrá visualizar su kardex, historial,
+                            desempeño, evaluaciones entre otras cosas.
+                            </p>
+                            <button type="button" class="btn-blue btn btn-primary">Accesar</button>
+
+                    </div>
+                    <span class="circle-before"></span>
+
+                </div>
+
+            </div>
+            <div class="service-column">
+                <div class="single-service">
+                    <div class="content">
+                        <span class="icon">
+                        <i class="fa-solid fa-book"></i>
+                        </span>
+                        <h3 class="main-title">POLÍTICAS</h3>
+                            <p class="description">
+                            En esta sección el empleado podrá accesar a su usuario laboral, donde podrá visualizar su kardex, historial,
+                            desempeño, evaluaciones entre otras cosas.
+                            </p>
+                            <button type="button" class="btn-red btn btn-danger">Accesar</button>
+
+                    </div>
+                    <span class="circle-before"></span>
+
+                </div>
+
+            </div>
+            <div class="service-column">
+                <div class="single-service">
+                    <div class="content">
+                        <span class="icon">
+                        <i class="fa-solid fa-pen"></i>
+                        </span>
+                        <h3 class="main-title">PRENOMINA</h3>
+                            <p class="description">
+                            En esta sección el empleado podrá accesar a su usuario laboral, donde podrá visualizar su kardex, historial,
+                            desempeño, evaluaciones entre otras cosas.
+                            </p>
+                            <button type="button" class="btn-purple btn btn-danger">Accesar</button>
+
+                    </div>
+                    <span class="circle-before"></span>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+</div>
+
+
+
+</section>
+
+
+   
 
 
 
